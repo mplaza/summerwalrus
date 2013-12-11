@@ -70,17 +70,12 @@ $(document).ready(function(){
 		summerChanges();
 		};
 };
-var focusFunction = function(){
-	alert("sehw");
-};
+
 	$("#timeButton").on("click", checkingTime);
 	$("#timeGuess").keypress(function(e){
 	if(e.which==13){
 		checkingTime();
 		};
-	});
-	$("#timeGuess").focus(function(){
-		alert("docus");
 	});
 
 });
