@@ -68,6 +68,18 @@ $(document).ready(function(){
 			Guess == "SUMMERTIME")
 		{
 		summerChanges();
+		}
+		else{
+			var random = Math.floor((Math.random())*4);
+			if (random == 1){
+			$("#penguinPic").animate({bottom:"+=10", right:"-=6"}, 3000);
+			}
+			else if (random == 2){
+			$("#penguinPic").animate({bottom:"+=100", right: "-=40"}, 6000);
+			}
+			else if (random == 3){
+			$("#penguinPic").animate({bottom:"-=10", right: "+=100"}, 6000)
+			}
 		};
 };
 
