@@ -1,0 +1,95 @@
+body{
+	background-color: white;
+}
+#summerSun{
+	height:150px;
+	width:150px;
+	background-color: yellow;
+	position: fixed;
+	top:200px;
+	left:400px;
+	border-radius: 999px;
+	display:none;
+}
+#snowStorm{
+	position: absolute;
+	bottom:290;
+	left:30;
+}
+#iglooPic{
+	position:absolute;
+	bottom:10;
+	right:-30;
+}
+#penguinPic{
+	position: absolute;
+	bottom:50;
+	right: 500;
+	height:100px;
+	width: 100px;
+	background-image:url("http://missdanasgames.files.wordpress.com/2011/01/12438872411928921148penguin5-svg-med.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#whatTime{
+	font-family: 'Karla', sans-serif;
+	font-size: 20px;
+	position:fixed;
+	top:150px;
+	left:550px;
+	z-index:500;
+}
+#timeGuess{
+	font-family: 'Karla', sans-serif;
+	font-size: 14px;
+}
+#timeButton{
+	height: 30px;
+	width:90px;
+	background-color: #B2B2B2;
+	text-align: center;
+	padding-top: 4px;
+	border-radius: 5px;
+	margin-left: 35px;
+	margin-top: 5px;
+	border-right: solid 2px #949494;
+	border-bottom: solid 2px #949494;
+}
+#timeQuestion{
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+#walrusPic{
+	position:fixed;
+	bottom:50;
+	float:left;
+	z-index:500;
+}
+#walrusPic.Animate{
+	transition: 1s linear;
+	-webkit-transform: rotate(10deg);
+}
+#walrusPic.Reanimate{
+	transition: 1s linear;
+	-webkit-transform: rotate(-10deg);
+}
+#ocean{
+	height:450px;
+	width:100%;
+	position: fixed;
+	left:0px;
+	bottom:100px;
+	background-image:url("http://futuristicwoo.com/moroco/wp-content/uploads/2013/05/moroco_orthodontics_slider_background_Ocean.png");
+	z-index:10;
+	display:none;
+}
+#sand{
+	height:100px;
+	width:100%;
+	position: fixed;
+	left:0px;
+	bottom:0px;
+	background-image:url("http://th05.deviantart.net/fs71/PRE/i/2011/334/6/e/seamless_beach_sand_texture_by_hhh316-d4hr45u.jpg");
+	z-index:10;
+	display:none;
+}
