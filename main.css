@@ -77,9 +77,10 @@ body{
 	height:450px;
 	width:100%;
 	position: fixed;
+	background-size: cover;
 	left:0px;
 	bottom:100px;
-	background-image:url("http://futuristicwoo.com/moroco/wp-content/uploads/2013/05/moroco_orthodontics_slider_background_Ocean.png");
+	background-image: url("http://i864.photobucket.com/albums/ab203/Sweet_Rose2010/PNG/Ocean.png");
 	z-index:10;
 	display:none;
 }

@@ -37,7 +37,7 @@ $(document).ready(function(){
 		};
 	};
 	var penguinAnimation = function(){
-		$("#penguinPic").css("bottom", "250");
+		$("#penguinPic").css("bottom", "425");
 		$("#penguinPic").css("right", "250");
 		$("#penguinPic").css("width", "50px");
 		for (var i=0; i<10; i++)
